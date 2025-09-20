@@ -23,7 +23,7 @@ app.use(cors());
 
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("RideGo server running");
 });
 
 app.use("/users", userRoutes);
